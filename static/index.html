@@ -1018,7 +1018,7 @@
                 };
 
                 websocket.onmessage = async (event) => {
-                    // addLog("收到对话数据"+event.data);
+                    addLog("收到对话数据"+event.data);
                     if (typeof event.data === 'string') {
                         // addLog("收到对话数据"+event.data);
                         const message = JSON.parse(event.data);
