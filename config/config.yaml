@@ -16,7 +16,7 @@ selected_module:
   ASR: FunASR
   VAD: SileroVAD
   LLM: OpenAILLM
-  TTS: KOKOROTTS
+  TTS: GTTS
   Player: WebSocketPlayer
 
 Recorder:
