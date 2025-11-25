@@ -41,7 +41,7 @@ LLM:
   OpenAILLM:
     model_name: deepseek-chat
     url: https://api.deepseek.com
-    api_key:
+    api_key: sk-c925b3b04afa4b148ef257923fc49785
   OllamaLLM:
     model_name: qwen-chat
     url: http://localhost:11434/api/chat # 注意后缀是api/chat
@@ -87,7 +87,7 @@ Memory:
   memory_file: tmp/memory.json
   model_name: deepseek-chat
   url: https://api.deepseek.com
-  api_key: null
+  api_key: sk-c925b3b04afa4b148ef257923fc49785
 
 TaskManager:
   functions_call_name: plugins/function_calls_config.json

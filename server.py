@@ -146,8 +146,8 @@ if __name__ == "__main__":
         app,
         host="0.0.0.0",
         port=8000,
-        ssl_keyfile="./key.pem",  # 可选：添加自签名证书
-        ssl_certfile="./cert.pem",
+        # ssl_keyfile="./key.pem",  # 可选：添加自签名证书
+        # ssl_certfile="./cert.pem",
         ws_ping_interval=20,
         ws_ping_timeout=30
     )
